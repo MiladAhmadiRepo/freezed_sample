@@ -90,3 +90,8 @@ and other fields are :
     "catchPhrase" is a String
     
     "bs" is a String
+
+##Creating a data model with freezed
+
+## create a file as "freezed_datamodels"
+
