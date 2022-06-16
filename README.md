@@ -100,11 +100,9 @@ and other fields are :
     
     "bs" is a String
 
-## Creating a data model with freezed
+## create a file with name of "model1"
 
-## create a file as "model1"
-
-## fill that file like "model1" class and call build_runner
+## fill file like "model1" class and then call build_runner
 
 ```bash
  flutter pub run build_runner build --delete-conflicting-outputs
