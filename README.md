@@ -20,7 +20,8 @@ dev_dependencies:
 create a function called "fetchUsers" that 
 will fetch data from this 
 
-[endpoint:](https://jsonplaceholder.typicode.com/users) to user data 
+endpoint:
+[https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users) to user data 
 
 
 
