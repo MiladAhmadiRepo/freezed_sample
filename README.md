@@ -93,5 +93,11 @@ and other fields are :
 
 ##Creating a data model with freezed
 
-## create a file as "freezed_datamodels"
+## create a file as "model1"
+
+## fill that file like "model1" class and call build_runner
+
+```bash
+ flutter pub run build_runner build --delete-conflicting-outputs
+```
 
