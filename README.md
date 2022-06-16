@@ -1,16 +1,18 @@
-# freezed_sample
+# Code Snippets
 
-A new Flutter project.
+# ----------------------------------- 
+open the project in your IDE 
+and open up the pubspec.yaml file 
+and add up the following dependencies that 
+we require,
 
-## Getting Started
+dependencies:
 
-This project is a starting point for a Flutter application.
+    freezed_annotation: ^2.0.3
+    dio: ^4.0.6
+dev_dependencies:
 
-A few resources to get you started if this is your first Flutter project:
+    build_runner: ^2.1.11
+    freezed: ^2.0.3+1
+    json_serializable:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
