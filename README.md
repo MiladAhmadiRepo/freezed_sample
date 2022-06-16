@@ -46,15 +46,17 @@ JSONPlaceholder response
 ```
 When taking a closer look at it we can identify the following,
 
-id is of type int because it returns a single digit
-name contains various characters, so this is a String
-username is a String
-email is a String
-address is a JSON object, so we'll require to create its own data model as well because we don't wanna put up a type for that as Map<String, dynamic> that would make less robust
+"id" is of type int because it returns a single digit
+"name" contains various characters, so this is a String
+"username" is a String
+"email" is a String
+"address" is a JSON object, so we'll require to create its own data model as
+well because we don't wanna put up a type for that as Map<String, dynamic>
+that would make less robust
 
 So let's identify the property types for each property in address field:
 
-street is a String
+"street" is a String
 suite is a String
 city is a String
 zipcode is a String
