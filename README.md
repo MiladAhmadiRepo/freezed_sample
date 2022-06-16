@@ -1,4 +1,4 @@
-# Code Snippets
+# Consuming the REST API with Freezed
 
 # ----------------------------------- 
 open the project in your IDE 
@@ -15,6 +15,14 @@ dev_dependencies:
     build_runner: ^2.1.11
     freezed: ^2.0.3+1
     json_serializable:
+
+# main file :
+create a function called "fetchUsers" that 
+will fetch data from this 
+
+[endpoint:](https://jsonplaceholder.typicode.com/users) to user data 
+
+
 
 JSONPlaceholder response
 ```json
