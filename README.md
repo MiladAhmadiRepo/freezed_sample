@@ -91,7 +91,7 @@ and other fields are :
     
     "bs" is a String
 
-##Creating a data model with freezed
+## Creating a data model with freezed
 
 ## create a file as "model1"
 
@@ -100,4 +100,18 @@ and other fields are :
 ```bash
  flutter pub run build_runner build --delete-conflicting-outputs
 ```
+To break it down what each does, the flutter pub run will allow us to run 
+script coming from a package like build_runner 
+and the build is the command or script to tell the 
+build_runner package to start generating code for us.
+It will look for files that contains the following *.freezed.dart 
+and *.g.dart the * is just a wild card that means any file name 
+that contains it will be recognized by the build_runner and
+lastly the --delete-conflicting-outputs flag will tell 
+the build_runner package to delete any existing *.freezed.dart
+and *.g.dart files to prevent duplicate outputs or that 
+it could potentially conflict with those.
 
+So every time you might have to update your data model 
+with new properties, you will always have to execute this 
+the command snippet above to tell build_runner to generate code for us.
