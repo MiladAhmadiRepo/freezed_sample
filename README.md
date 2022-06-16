@@ -17,13 +17,13 @@ dev_dependencies:
     json_serializable:
 
 # main file :
-create a function called "fetchUsers" that 
+create a function  in main file and called "fetchUsers" that 
 will fetch data from this 
 
 endpoint:
-[https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users) to user data 
+[https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users) to get user data 
 
-
+and complete widgets like main.dart 
 
 JSONPlaceholder response
 ```json
@@ -124,3 +124,9 @@ it could potentially conflict with those.
 So every time you might have to update your data model 
 with new properties, you will always have to execute this 
 the command snippet above to tell build_runner to generate code for us.
+
+
+# the result of project :
+    
+<img src="https://res.cloudinary.com/practicaldev/image/fetch/s--vgCw5i3u--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/8mvv1n5a5q33mevmwswo.png" alt="J"/>
+
