@@ -128,3 +128,29 @@ the command snippet above to tell build_runner to generate code for us.
     
 <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--vgCw5i3u--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/8mvv1n5a5q33mevmwswo.png" alt="J"/>
 
+# Using "copyWith" method from a data model
+
+```dart
+void appendUsername(int index) {
+    setState(() {
+      _users[index] = _users[index].copyWith(
+        username: '${_users[index].username} CLICKED',
+      );
+    });
+  }
+
+// ... 
+
+body: ListView.builder(
+        itemCount: _users.length,
+        itemBuilder: (context, index) {
+          final user = _users[index];
+
+          return ListTile(
+            title: Text(user.username),
+            subtitle: Text(user.email),
+            onTap: () => appendUsername(index),
+          );
+        },
+      ),
+```
