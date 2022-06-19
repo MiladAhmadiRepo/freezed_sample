@@ -100,9 +100,11 @@ and other fields are :
     
     "bs" is a String
 
-## create a file with name of "model1"
+## create a file and named like "model1" in lib folder
 
-## fill file like "model1" class and then call build_runner
+## fill your model class as the same way of "model1"
+
+## then call build_runner
 
 ```bash
  flutter pub run build_runner build --delete-conflicting-outputs
